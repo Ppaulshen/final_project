@@ -1,40 +1,20 @@
 {
- "name": "School Policy", 
+ "name": "flare",
  "children": [
   {
-   "name": "Practices", 
+   "name": "analytics",
    "children": [
-    {"name": "Require visitors to sign or check in and wear badges","value": 95.4}  
-    {"name": "Control access to school buildings during school hours (e.g., locked or monitored doors)","value": 92.8}
-	{"name": "Control access to school grounds during school hours (e.g., locked or monitored gates)","value": 49}
-	{"name": "Require metal detector checks on students every day","value": 2.7}
-	{"name": "Perform one or more random metal detector checks on students","value": 7.4}
-	{"name": "Equip classrooms with locks so that doors can be locked from the inside","value": 66}
-	{"name": "Close the campus for most or all students during lunch","value": 72.1}
-	{"name": "Use one or more random dog sniffs to check for drugs","value": 41.9}
-	{"name": "Perform one or more random sweeps for contraband , but not including dog sniffs","value": 18.7}
-	{"name": "Require drug testing for athletes","value": 11.4}
-	{"name": "Require drug testing for students in extra-curricular activities other than athletics","value": 8.9}
-	{"name": "Require students to wear uniforms","value": 17}
-	{"name": "Enforce a strict dress code","value": 58.1}
-	{"name": "Provide school lockers to students","value": 67.3}
-	{"name": "Have "panic button(s)" or silent alarm(s) that directly connect to law enforcement in the event of an incident","value": 29.9}
-	{"name": "Require clear book bags or ban book bags on school grounds","value": 5.6}
-	{"name": "Provide an electronic notification system that automatically notifies parents in case of a school-wide emergency","value": 74.5}
-	{"name": "Require students to wear badges or picture ID","value": 12.7}
-	{"name": "Provide a structured anonymous threat reporting system ","value": 52.2}
-	{"name": "Require faculty and staff to wear badges or picture IDs": 69.4}
-	{"name": "Use one or more security cameras to monitor the school","value": 87.4}
-	{"name": "Provide telephones in most classrooms","value": 81.2}
-	{"name": "Provide two-way radios to any staff","value": 73.3}
-	{"name": "Limit access to social networking websties","value": 88.8}
-	{"name": "Prohibit use of cell phones and text messaging devices during school hours","value": 56.4}
-	
-	
-	
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster", "value": 3938},
+      {"name": "CommunityStructure", "value": 3812},
+      {"name": "HierarchicalCluster", "value": 6714},
+      {"name": "MergeEdge", "value": 743}
+     ]
     },
     {
-     "name": "graph", 
+     "name": "graph",
      "children": [
       {"name": "BetweennessCentrality", "value": 3534},
       {"name": "LinkDistance", "value": 5731},
@@ -44,7 +24,7 @@
      ]
     },
     {
-     "name": "optimization", 
+     "name": "optimization",
      "children": [
       {"name": "AspectRatioBanker", "value": 7074}
      ]
@@ -54,10 +34,10 @@
   {
    "name": "animate",
    "children": [
-    {"name": "Easing", "value": 17010},  
-    {"name": "FunctionSequence", "value": 5842}, 
+    {"name": "Easing", "value": 17010},
+    {"name": "FunctionSequence", "value": 5842},
     {
-     "name": "interpolate", 
+     "name": "interpolate",
      "children": [
       {"name": "ArrayInterpolator", "value": 1983},
       {"name": "ColorInterpolator", "value": 2047},
@@ -70,7 +50,7 @@
       {"name": "RectangleInterpolator", "value": 2042}
      ]
     },
-    {"name": "ISchedulable", "value": 1041},   
+    {"name": "ISchedulable", "value": 1041},
     {"name": "Parallel", "value": 5176},
     {"name": "Pause", "value": 449},
     {"name": "Scheduler", "value": 5593},
@@ -82,7 +62,7 @@
    ]
   },
   {
-   "name": "data",   
+   "name": "data",
    "children": [
     {
      "name": "converters",
@@ -94,7 +74,7 @@
       {"name": "JSONConverter", "value": 2220}
      ]
     },
-    {"name": "DataField", "value": 1759},  
+    {"name": "DataField", "value": 1759},
     {"name": "DataSchema", "value": 2165},
     {"name": "DataSet", "value": 586},
     {"name": "DataSource", "value": 3331},
@@ -103,24 +83,24 @@
    ]
   },
   {
-   "name": "display",   
+   "name": "display",
    "children": [
-    {"name": "DirtySprite", "value": 8833},  
+    {"name": "DirtySprite", "value": 8833},
     {"name": "LineSprite", "value": 1732},
     {"name": "RectSprite", "value": 3623},
     {"name": "TextSprite", "value": 10066}
    ]
   },
   {
-   "name": "flex",     
+   "name": "flex",
    "children": [
-    {"name": "FlareVis", "value": 4116}   
+    {"name": "FlareVis", "value": 4116}
    ]
   },
   {
-   "name": "physics",     
+   "name": "physics",
    "children": [
-    {"name": "DragForce", "value": 1082},  
+    {"name": "DragForce", "value": 1082},
     {"name": "GravityForce", "value": 1336},
     {"name": "IForce", "value": 319},
     {"name": "NBodyForce", "value": 10498},
@@ -131,9 +111,9 @@
    ]
   },
   {
-   "name": "query",  
+   "name": "query",
    "children": [
-    {"name": "AggregateExpression", "value": 1616},  
+    {"name": "AggregateExpression", "value": 1616},
     {"name": "And", "value": 1027},
     {"name": "Arithmetic", "value": 3891},
     {"name": "Average", "value": 891},
@@ -152,7 +132,7 @@
     {"name": "Match", "value": 3748},
     {"name": "Maximum", "value": 843},
     {
-     "name": "methods",   
+     "name": "methods",
      "children": [
       {"name": "add", "value": 593},
       {"name": "and", "value": 330},
@@ -201,9 +181,9 @@
    ]
   },
   {
-   "name": "scale",    
+   "name": "scale",
    "children": [
-    {"name": "IScaleMap", "value": 2105}, 
+    {"name": "IScaleMap", "value": 2105},
     {"name": "LinearScale", "value": 1316},
     {"name": "LogScale", "value": 3151},
     {"name": "OrdinalScale", "value": 3770},
@@ -219,13 +199,13 @@
    "name": "util",
    "children": [
     {"name": "Arrays", "value": 8258},
-    {"name": "Colors", "value": 10001}, 
+    {"name": "Colors", "value": 10001},
     {"name": "Dates", "value": 8217},
     {"name": "Displays", "value": 12555},
     {"name": "Filter", "value": 2324},
     {"name": "Geometry", "value": 10993},
     {
-     "name": "heap",  
+     "name": "heap",
      "children": [
       {"name": "FibonacciHeap", "value": 9354},
       {"name": "HeapNode", "value": 1233}
@@ -261,7 +241,7 @@
    ]
   },
   {
-   "name": "vis",   
+   "name": "vis",
    "children": [
     {
      "name": "axis",
