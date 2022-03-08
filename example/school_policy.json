@@ -50,13 +50,7 @@
       {"name": "RectangleInterpolator", "value": 2042}
      ]
     },
-    {"name": "ISchedulable", "value": 1041},
-    {"name": "Parallel", "value": 5176},
-    {"name": "Pause", "value": 449},
-    {"name": "Scheduler", "value": 5593},
-    {"name": "Sequence", "value": 5534},
-    {"name": "Transition", "value": 9201},
-    {"name": "Transitioner", "value": 19975},
+    
     {"name": "TransitionEvent", "value": 1116},
     {"name": "Tween", "value": 6006}
    ]
@@ -120,15 +114,7 @@
     {"name": "BinaryExpression", "value": 2893},
     {"name": "Comparison", "value": 5103},
     {"name": "CompositeExpression", "value": 3677},
-    {"name": "Count", "value": 781},
-    {"name": "DateUtil", "value": 4141},
-    {"name": "Distinct", "value": 933},
-    {"name": "Expression", "value": 5130},
-    {"name": "ExpressionIterator", "value": 3617},
-    {"name": "Fn", "value": 3240},
-    {"name": "If", "value": 2732},
-    {"name": "IsA", "value": 2039},
-    {"name": "Literal", "value": 1214},
+
     {"name": "Match", "value": 3748},
     {"name": "Maximum", "value": 843},
     {
