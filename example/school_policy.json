@@ -1,5 +1,5 @@
 {
- "name": "school_policy",
+ "name": "school_policy",        ////////////////////////////////////////////////
  "children": [
   {
    "name": "analytics",
