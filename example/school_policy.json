@@ -1,10 +1,10 @@
 {
- "name": "School Policy", //1 
+ "name": "School Policy", 
  "children": [
   {
-   "name": "Practices",  //2
+   "name": "Practices", 
    "children": [
-    {"name": "Require visitors to sign or check in and wear badges","value": 95.4}   //3
+    {"name": "Require visitors to sign or check in and wear badges","value": 95.4}  
     {"name": "Control access to school buildings during school hours (e.g., locked or monitored doors)","value": 92.8}
 	{"name": "Control access to school grounds during school hours (e.g., locked or monitored gates)","value": 49}
 	{"name": "Require metal detector checks on students every day","value": 2.7}
@@ -34,7 +34,7 @@
 	
     },
     {
-     "name": "graph",   //3
+     "name": "graph", 
      "children": [
       {"name": "BetweennessCentrality", "value": 3534},
       {"name": "LinkDistance", "value": 5731},
@@ -44,7 +44,7 @@
      ]
     },
     {
-     "name": "optimization",  //3
+     "name": "optimization", 
      "children": [
       {"name": "AspectRatioBanker", "value": 7074}
      ]
@@ -52,12 +52,12 @@
    ]
   },
   {
-   "name": "animate",  //2
+   "name": "animate",
    "children": [
-    {"name": "Easing", "value": 17010},   //3
-    {"name": "FunctionSequence", "value": 5842},   //3
+    {"name": "Easing", "value": 17010},  
+    {"name": "FunctionSequence", "value": 5842}, 
     {
-     "name": "interpolate",   //3
+     "name": "interpolate", 
      "children": [
       {"name": "ArrayInterpolator", "value": 1983},
       {"name": "ColorInterpolator", "value": 2047},
@@ -70,7 +70,7 @@
       {"name": "RectangleInterpolator", "value": 2042}
      ]
     },
-    {"name": "ISchedulable", "value": 1041},   //3
+    {"name": "ISchedulable", "value": 1041},   
     {"name": "Parallel", "value": 5176},
     {"name": "Pause", "value": 449},
     {"name": "Scheduler", "value": 5593},
@@ -82,10 +82,10 @@
    ]
   },
   {
-   "name": "data",   //2
+   "name": "data",   
    "children": [
     {
-     "name": "converters",  //3
+     "name": "converters",
      "children": [
       {"name": "Converters", "value": 721},
       {"name": "DelimitedTextConverter", "value": 4294},
@@ -94,7 +94,7 @@
       {"name": "JSONConverter", "value": 2220}
      ]
     },
-    {"name": "DataField", "value": 1759},  //3
+    {"name": "DataField", "value": 1759},  
     {"name": "DataSchema", "value": 2165},
     {"name": "DataSet", "value": 586},
     {"name": "DataSource", "value": 3331},
@@ -103,24 +103,24 @@
    ]
   },
   {
-   "name": "display",   //2
+   "name": "display",   
    "children": [
-    {"name": "DirtySprite", "value": 8833},   //3
+    {"name": "DirtySprite", "value": 8833},  
     {"name": "LineSprite", "value": 1732},
     {"name": "RectSprite", "value": 3623},
     {"name": "TextSprite", "value": 10066}
    ]
   },
   {
-   "name": "flex",     //2
+   "name": "flex",     
    "children": [
-    {"name": "FlareVis", "value": 4116}    //3
+    {"name": "FlareVis", "value": 4116}   
    ]
   },
   {
-   "name": "physics",     //2
+   "name": "physics",     
    "children": [
-    {"name": "DragForce", "value": 1082},   //3
+    {"name": "DragForce", "value": 1082},  
     {"name": "GravityForce", "value": 1336},
     {"name": "IForce", "value": 319},
     {"name": "NBodyForce", "value": 10498},
@@ -131,9 +131,9 @@
    ]
   },
   {
-   "name": "query",    //2
+   "name": "query",  
    "children": [
-    {"name": "AggregateExpression", "value": 1616},    //3
+    {"name": "AggregateExpression", "value": 1616},  
     {"name": "And", "value": 1027},
     {"name": "Arithmetic", "value": 3891},
     {"name": "Average", "value": 891},
@@ -152,7 +152,7 @@
     {"name": "Match", "value": 3748},
     {"name": "Maximum", "value": 843},
     {
-     "name": "methods",    //3
+     "name": "methods",   
      "children": [
       {"name": "add", "value": 593},
       {"name": "and", "value": 330},
@@ -188,7 +188,7 @@
       {"name": "-", "value": 264}
      ]
     },
-    {"name": "Minimum", "value": 843},   //3
+    {"name": "Minimum", "value": 843},
     {"name": "Not", "value": 1554},
     {"name": "Or", "value": 970},
     {"name": "Query", "value": 13896},
@@ -201,9 +201,9 @@
    ]
   },
   {
-   "name": "scale",    //2
+   "name": "scale",    
    "children": [
-    {"name": "IScaleMap", "value": 2105},   //3
+    {"name": "IScaleMap", "value": 2105}, 
     {"name": "LinearScale", "value": 1316},
     {"name": "LogScale", "value": 3151},
     {"name": "OrdinalScale", "value": 3770},
@@ -216,16 +216,16 @@
    ]
   },
   {
-   "name": "util",    //2
+   "name": "util",
    "children": [
-    {"name": "Arrays", "value": 8258}, //3
+    {"name": "Arrays", "value": 8258},
     {"name": "Colors", "value": 10001}, 
     {"name": "Dates", "value": 8217},
     {"name": "Displays", "value": 12555},
     {"name": "Filter", "value": 2324},
     {"name": "Geometry", "value": 10993},
     {
-     "name": "heap",  //3
+     "name": "heap",  
      "children": [
       {"name": "FibonacciHeap", "value": 9354},
       {"name": "HeapNode", "value": 1233}
@@ -261,7 +261,7 @@
    ]
   },
   {
-   "name": "vis",    //2
+   "name": "vis",   
    "children": [
     {
      "name": "axis",
